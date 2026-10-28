@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Janvi | Personal Profile</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="chatbot.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Janvi</h1>
+
+    <p class="tagline">An Engineering Student</p>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p>
+        I'm an engineering student interested in understanding technology beyond just writing code. I enjoy working
+        through programming problems and want to develop the ability to design, build, test, and improve real-world
+        solutions.
+      </p>
+      <p>
+        My current focus is strengthening my data structures and algorithms knowledge, building practical projects, and
+        exploring software engineering and other technology domains before choosing a specialization.
+      </p>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <ul>
+        <li>C++ Programming</li>
+        <li>Data structures and algorithms</li>
+        <li>HTML,CSS and Javascript</li>
+        <li>Logical tinking and debugging</li>
+        <li>Technical learning and research</li>
+      </ul>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <ul>
+        <li>
+          <a href="https://example.com/placeholder-project-one">1. Amazon Clone</a>
+          An e-commerce website inspired by Amazon, featuring product listings, a search bar, and a shopping cart.
+          Skills showcased: Web development, UI design, JavaScript.
+        </li>
+        <li>
+          <a href="https://example.com/placeholder-project-two">2. Color Detection Model</a>
+          A computer vision project that identifies colors in images or through a live camera feed.
+
+          Skills showcased: Python, image processing, computer vision.
+        </li>
+        <li>
+          <a href="https://example.com/placeholder-project-three">3. Book Reading App</a>
+          An app to track books, record reading progress, save notes, and maintain a personal reading list.
+
+          Skills showcased: App development, data management, UI/UX design.
+        </li>
+      </ul>
+    </section>
+  </main>
+  <section id="weather">
+    <h2>Weather</h2>
+
+    <input type="text" id="cityInput" placeholder="Enter a city">
+
+    <button id="weatherButton">
+      Get Weather
+    </button>
+
+    <div id="weatherResult">
+      Enter a city to see the weather.
+    </div>
+  </section>
+  <section id="aiChatSection" class="ai-chat">
+    <h2>Ask My AI Assistant</h2>
+
+    <p>
+      Ask questions about this portfolio,
+      projects, and technologies.
+    </p>
+
+    <div id="chatMessages" aria-live="polite"></div>
+
+    <div class="chat-controls">
+      <input type="text" id="userInput" placeholder="Ask a question..." />
+
+      <button id="sendButton" type="button">
+        Send
+      </button>
+    </div>
+
+    <p id="chatStatus" role="status"></p>
+
+    <p class="chat-note">
+      AI chat is available during the local
+      classroom demonstration only.
+    </p>
+  </section>
+  <footer>
+
+    <p>PLACEHOLDER Contact: you@example.com</p>
+  </footer>
+  <button id="themeButton">Toggle Dark Mode</button>
+  <script src="script.js"></script>
+  <script src="config.js"></script>
+  <script src="chatbot.js"></script>
+
+</body>
+
+</html>
